@@ -1,0 +1,144 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+.navi-main-wrapper .col-md-5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navi-main-wrapper .col-md-5 ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+.navi-main-wrapper .col-md-5 ul li {
+    padding: 0 10px;
+}
+
+.navi-main-wrapper .col-md-5 ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+img.d-inline-block.align-top {
+    width: 100%;
+    height: auto;
+}
+
+nav.container.navi-main-wrapper {
+    padding: 20px 0;
+    border-bottom: 1px rgb(243, 243, 243);
+}
+
+
+
+.hero-section-main-wrap{
+    padding: 5em 0;
+    background: #F9FAFB;
+}
+
+.hero-section-main-wrap h1{
+    font-size: 4em;
+    font-weight: 800;
+}
+
+.col-md-6.content-side {
+    position: relative;
+    top: 5em;
+}
+
+.hero-section-main-wrap .md-6-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-section{
+    padding: 5em 0;
+}
+
+.card-section .card-body{
+    padding: 3em 2em;
+}
+
+
+.left-right-img-section {
+    padding: 5em 0;
+}
+
+.md-6-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-frm-section{
+    padding: 5em 0;
+    background: #F9FAFB;
+}
+
+.contact-frm-section form .btn-danger{
+    width: 100% !important;
+}
+
+
+footer{
+    padding: 5em 0;
+}
+
+footer ul {
+ text-decoration: none;
+ list-style: none;
+ padding: 0;
+}
+
+footer ul li{
+    line-height: 2;
+}
+
+footer img{
+    margin-bottom: 10px;
+}
+
+
+/*  */
+/* Login page Styles */
+/*  */
+
+.background-main-login{
+    background-image: url(https://images.unsplash.com/photo-1533090161767-e6ffed986c88?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.background-main-login .col-md-4{
+    background: white;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.background-main-login .col-md-4 .btn-primary{
+    width: 50%;
+}
+
+.background-main-login .col-md-4 .frm-login-botm-section{
+    background-color:#f1f1f1; 
+    border-radius: 5px;
+    padding: 12px 0;
+}
+
+.background-main-login .col-md-4 .form-group{
+    margin-bottom: 15px;
+}
